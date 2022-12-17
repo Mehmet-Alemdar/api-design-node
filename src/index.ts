@@ -1,3 +1,6 @@
+import * as dotent from 'dotenv'
+dotent.config()
+
 import app from './server'
 
 app.listen(3001, () => {
